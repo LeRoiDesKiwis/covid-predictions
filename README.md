@@ -14,11 +14,11 @@ Vous pouvez ici voir le nombre de jour avant que le nombre d'habitants ne soit e
 
 # Les chiffres
 
-# À savoir
+## À savoir
 - Le nombre de décès du covid est ici faux (à l'instant où j'écris), mais comme pour l'instant, ne nombre de décès est de à peu près 500 morts/jour et le nombre de naissances de 3000/jours, il n'y a pas de décès. J'ai donc augmenté un peu la valeur.
 - Si vous trouvez des sources plus fiables, n'hésitez pas à faire une pull request.
 
-# Sources
+## Sources
 Vous trouverez ci-dessous les sources des chiffres utilisés (nombre total d'habitants etc) :
 - [Google](https://www.google.com/search?rlz=1C1CHBF_frFR891FR891&sxsrf=ALeKk02aglzHIuzTpdWO4ZCxraXzOL0K2g%3A1603973589828&ei=1bGaX-TyMcTbgwfgwIqIDA&q=d%C3%A9c%C3%A8s+covid&oq=d%C3%A9c%C3%A8s+covid&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIICAAQsQMQgwEyDQgAELEDEIMBEBQQhwIyBQgAELEDMggIABCxAxCDATIICAAQsQMQgwEyCAgAELEDEIMBMgIIADICCAAyCAgAELEDEIMBOgoIABCxAxCDARBDUIYDWJUFYNwGaABwAHgAgAH1AogB8QiSAQcwLjEuMS4ymAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwiksbOg49nsAhXE7eAKHWCgAsEQ4dUDCA0&uact=5) pour le nombre de décès du covid/jour.
 - [Insee](https://www.insee.fr/fr/statistiques/4277635?sommaire=4318291) pour le nombre de naissances par an (j'ai divisé par 365 pour obtenir le nombre de naissances par jour).
