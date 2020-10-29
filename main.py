@@ -2,7 +2,7 @@ import menu
 import utils
 
 TOTAL_POPULATION = int(7.794*(10**9))
-BIRTH_PER_DAY = 4000
+BIRTH_PER_DAY = 3000
 DEATH_BY_COVID = 5000 #faux au moment où j'écris (29/10/20)
 
 print("---- Quelques infos ----")
