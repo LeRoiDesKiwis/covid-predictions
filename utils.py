@@ -1,7 +1,7 @@
 def format_int(i, separator=" "):
     number = str(i)[::-1]
     final_str = ""
-    for index in range(len(i)):
+    for index in range(len(number)):
         current_char = number[index]
         if index%3 == 0 and index != 0:
             current_char += separator
