@@ -14,7 +14,7 @@ class Menu:
             print(f"{i+1}. {self.options[i]}")
     
     def get_response(self):
-        MESSAGE = "Votre réponse : "
+        MESSAGE = "\nVotre réponse : "
         response = input(MESSAGE)
         while not response.isdigit() or int(response) > len(self.options) or int(response) <= 0 :
             response = input(MESSAGE)

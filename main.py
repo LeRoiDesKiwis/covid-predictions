@@ -2,7 +2,7 @@ import menu
 import utils
 
 TOTAL_POPULATION = int(7.794*(10**9))
-BIRTH_PER_DAY = 3000
+BIRTH_PER_DAY = 4000
 DEATH_BY_COVID = 5000 #faux au moment où j'écris (29/10/20)
 
 print("---- Quelques infos ----")
@@ -19,7 +19,12 @@ def days_remain(k):
 options = [population_remain, days_remain]
 
 while True:
-    index, _ = menu.open_menu("Menu", ['Population restante en fonction de k jours', 'Jours restants avant que la population soit inférieure à k'])
+    index, _ = menu.open_menu("Menu", ['Population restante en fonction de k jours', 'Jours restants avant que la population soit inférieure à k', 'quitter'])
+    print("")
+    if index >= len(options):
+        print("A bientôt !")
+        exit()
     k = eval(input("k : "))
+    print("")
     options[index](k)
-    print("\n")
+    print("")
